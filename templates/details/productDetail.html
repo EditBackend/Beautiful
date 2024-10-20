@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+<br>
+<div>
+    <div class="product_box w-25">
+        <h4 class="bursh_text">{{blog.name}}</h4>
+        <p class="lorem_text">{{blog.bio}}</p>
+        <img src="{{blog.img.url}}" class="image_1">
+        <div class="btn_main">
+            <div class="buy_bt">
+                <ul>
+                    <li class="active"><a href="#">hohlasang sotib ol</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <h3 class="price_text">narxi {{blog.price}}ming</h3>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock content %}
